@@ -1,0 +1,608 @@
+[2024-06-03T01:50:30.363+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T01:50:30.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T01:50:30.368+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:50:30.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:50:30.391+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:50:30.384+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T01:50:30.394+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:50:30.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.062 seconds
+[2024-06-03T01:51:00.591+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T01:51:00.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T01:51:00.598+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:51:00.597+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:51:00.625+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:51:00.618+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T01:51:00.626+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:51:00.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.105 seconds
+[2024-06-03T01:51:30.749+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T01:51:30.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T01:51:30.754+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:51:30.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:51:30.774+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:51:30.769+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T01:51:30.775+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:51:30.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.059 seconds
+[2024-06-03T01:55:17.916+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T01:55:17.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T01:55:18.002+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:55:17.981+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:55:18.426+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:55:18.246+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T01:55:18.444+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:55:19.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 1.403 seconds
+[2024-06-03T01:55:52.003+0000] {processor.py:161} INFO - Started process (PID=55) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T01:55:52.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T01:55:52.382+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:55:52.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:55:52.956+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:55:52.845+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T01:55:52.985+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:55:55.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 4.483 seconds
+[2024-06-03T01:56:27.125+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T01:56:27.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T01:56:27.344+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:56:27.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:56:27.816+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:56:27.770+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T01:56:27.825+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:56:28.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 1.943 seconds
+[2024-06-03T01:57:04.704+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T01:57:04.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T01:57:07.465+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:57:06.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:57:09.886+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:57:08.293+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T01:57:10.520+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:57:12.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 9.117 seconds
+[2024-06-03T01:57:43.858+0000] {processor.py:161} INFO - Started process (PID=77) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T01:57:43.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T01:57:43.975+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:57:43.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:57:44.531+0000] {logging_mixin.py:188} INFO - [2024-06-03T01:57:44.512+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T01:57:44.535+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T01:57:45.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 1.538 seconds
+[2024-06-03T02:06:03.766+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:06:03.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:06:03.771+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:06:03.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:06:03.794+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:06:03.788+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:06:03.796+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:06:03.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.056 seconds
+[2024-06-03T02:06:33.989+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:06:33.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:06:33.992+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:06:33.991+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:06:34.012+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:06:34.006+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:06:34.013+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:06:34.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.056 seconds
+[2024-06-03T02:07:04.142+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:07:04.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:07:04.145+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:07:04.145+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:07:04.163+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:07:04.158+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:07:04.164+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:07:04.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.047 seconds
+[2024-06-03T02:07:34.325+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:07:34.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:07:34.328+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:07:34.328+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:07:34.347+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:07:34.343+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:07:34.349+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:07:34.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.045 seconds
+[2024-06-03T02:08:04.494+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:08:04.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:08:04.496+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:08:04.496+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:08:04.511+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:08:04.507+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:08:04.512+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:08:04.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.041 seconds
+[2024-06-03T02:08:34.666+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:08:34.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:08:34.669+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:08:34.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:08:34.686+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:08:34.681+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:08:34.687+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:08:34.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.042 seconds
+[2024-06-03T02:09:04.834+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:09:04.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:09:04.836+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:09:04.836+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:09:04.854+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:09:04.849+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:09:04.855+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:09:04.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.043 seconds
+[2024-06-03T02:09:35.019+0000] {processor.py:161} INFO - Started process (PID=79) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:09:35.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:09:35.022+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:09:35.022+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:09:35.042+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:09:35.037+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:09:35.044+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:09:35.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.047 seconds
+[2024-06-03T02:10:05.187+0000] {processor.py:161} INFO - Started process (PID=86) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:10:05.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:10:05.190+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:10:05.189+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:10:05.207+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:10:05.202+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:10:05.209+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:10:05.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.043 seconds
+[2024-06-03T02:10:35.358+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:10:35.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:10:35.361+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:10:35.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:10:35.377+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:10:35.372+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:10:35.379+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:10:35.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.042 seconds
+[2024-06-03T02:11:05.598+0000] {processor.py:161} INFO - Started process (PID=100) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:11:05.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:11:05.601+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:11:05.600+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:11:05.618+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:11:05.613+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:11:05.620+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:11:05.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.044 seconds
+[2024-06-03T02:11:35.758+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:11:35.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:11:35.761+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:11:35.761+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:11:35.781+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:11:35.776+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:11:35.782+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:11:35.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.047 seconds
+[2024-06-03T02:12:48.639+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:12:48.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:12:48.650+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:12:48.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:12:48.681+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:12:48.671+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:12:48.683+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:12:48.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.116 seconds
+[2024-06-03T02:13:18.907+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:13:18.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:13:18.912+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:13:18.911+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:13:18.932+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:13:18.927+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:13:18.934+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:13:18.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.053 seconds
+[2024-06-03T02:13:49.093+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:13:49.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:13:49.097+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:13:49.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:13:49.132+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:13:49.123+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:13:49.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:13:49.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.080 seconds
+[2024-06-03T02:14:19.269+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:14:19.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:14:19.272+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:14:19.272+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:14:19.291+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:14:19.287+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:14:19.293+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:14:19.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.049 seconds
+[2024-06-03T02:20:03.539+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:20:03.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:20:03.543+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:20:03.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:20:03.566+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:20:03.560+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:20:03.569+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:20:03.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.055 seconds
+[2024-06-03T02:20:33.922+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:20:33.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:20:33.925+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:20:33.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:20:33.951+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:20:33.945+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:20:33.953+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:20:33.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.070 seconds
+[2024-06-03T02:21:04.165+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:21:04.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:21:04.168+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:21:04.167+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:21:04.189+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:21:04.183+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:21:04.191+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:21:04.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.061 seconds
+[2024-06-03T02:21:34.360+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:21:34.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:21:34.363+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:21:34.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:21:34.381+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:21:34.376+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:21:34.383+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:21:34.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.049 seconds
+[2024-06-03T02:22:04.540+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:22:04.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:22:04.545+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:22:04.545+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:22:04.631+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:22:04.621+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:22:04.637+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:22:04.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.221 seconds
+[2024-06-03T02:22:34.954+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:22:34.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:22:34.959+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:22:34.958+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:22:34.981+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:22:34.975+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:22:34.982+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:22:35.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.059 seconds
+[2024-06-03T02:23:57.502+0000] {processor.py:161} INFO - Started process (PID=31) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:23:57.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:23:57.507+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:23:57.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:23:57.532+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:23:57.525+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:23:57.534+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:23:57.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.060 seconds
+[2024-06-03T02:24:28.061+0000] {processor.py:161} INFO - Started process (PID=38) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:24:28.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:24:28.082+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:24:28.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:24:28.129+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:24:28.118+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:24:28.131+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:24:28.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.178 seconds
+[2024-06-03T02:24:58.399+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:24:58.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:24:58.407+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:24:58.406+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:24:58.431+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:24:58.427+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:24:58.433+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:24:58.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.088 seconds
+[2024-06-03T02:25:28.541+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:25:28.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:25:28.548+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:25:28.546+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:25:28.570+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:25:28.564+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:25:28.572+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:25:28.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.058 seconds
+[2024-06-03T02:25:58.761+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:25:58.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:25:58.764+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:25:58.763+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:25:58.784+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:25:58.778+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:25:58.786+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:25:58.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.048 seconds
+[2024-06-03T02:26:28.925+0000] {processor.py:161} INFO - Started process (PID=66) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:26:28.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:26:28.929+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:26:28.928+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:26:28.947+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:26:28.942+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:26:28.948+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:26:28.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.046 seconds
+[2024-06-03T02:26:59.107+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:26:59.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:26:59.110+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:26:59.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:26:59.132+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:26:59.126+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:26:59.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:26:59.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.058 seconds
+[2024-06-03T02:27:29.275+0000] {processor.py:161} INFO - Started process (PID=80) to work on /opt/airflow/dags/test_dag.py
+[2024-06-03T02:27:29.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-03T02:27:29.284+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:27:29.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:27:29.313+0000] {logging_mixin.py:188} INFO - [2024-06-03T02:27:29.307+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 8, in <module>
+    from crawl import get_price,urls
+  File "/opt/airflow/dags/crawl.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-06-03T02:27:29.316+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-03T02:27:29.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.068 seconds
